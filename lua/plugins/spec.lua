@@ -30,6 +30,10 @@ return {
 			     event = "InsertEnter",
 			     config = true
 			 },
+             {
+                 'nvim-telescope/telescope.nvim', tag = '0.1.8',
+                 dependencies = { 'nvim-lua/plenary.nvim' }
+             },
 	   {
 	       "williamboman/mason.nvim",
 	       lazy = false,
